@@ -1,0 +1,850 @@
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:00:00.052Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-19T22:00:00.182Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"2a57f5b1-3371-4a12-98d7-ac66e40a0168","timestamp":"2022-10-19T22:00:00.182Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-19T22:00:00.191Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-19T22:00:00.304Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:01:00.023Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:02:00.040Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:03:00.063Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:04:00.049Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:05:00.012Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-19T22:05:00.021Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"1b1eb14d-ab85-4b39-ac48-028719f5cb97","timestamp":"2022-10-19T22:05:00.029Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-19T22:05:00.087Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:06:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:07:00.047Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:08:00.042Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:09:00.021Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:10:00.042Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-19T22:10:00.047Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"fc27687b-c7dd-436f-a998-202c157dd817","timestamp":"2022-10-19T22:10:00.048Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-19T22:10:00.062Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-19T22:10:00.086Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:11:00.021Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:12:00.050Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:13:00.057Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:14:00.067Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:15:00.040Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-19T22:15:00.052Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"cae3c4da-5cfd-41b7-8319-b7552a1d44b4","timestamp":"2022-10-19T22:15:00.054Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-19T22:15:00.103Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:16:00.025Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:17:00.044Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:18:00.027Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:19:00.057Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:22:21.763Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-19T22:22:21.788Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"473795d6-5da3-4190-bf2c-7578ad45a466","timestamp":"2022-10-19T22:22:21.789Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-19T22:22:21.807Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:22:21.811Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:22:21.816Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-19T22:22:21.845Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:23:00.030Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:37:15.773Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:37:15.780Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-19T22:37:15.786Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"4febce5f-90cb-431b-87b1-f85bfe55d896","timestamp":"2022-10-19T22:37:15.787Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:37:15.799Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:37:15.802Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:37:15.808Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:37:15.812Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:37:15.815Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-19T22:37:15.825Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"5ed1694c-649a-43ca-92fe-6831d86bb794","timestamp":"2022-10-19T22:37:15.825Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-19T22:37:15.828Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:37:15.829Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:37:15.832Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:37:15.833Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:37:15.835Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:37:15.837Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-19T22:37:15.839Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"a8c5fb80-862e-4d10-8c9a-4992615652b9","timestamp":"2022-10-19T22:37:15.839Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:37:15.841Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:37:15.842Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-19T22:37:15.869Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-19T22:37:15.869Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-19T22:37:15.876Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:54:10.064Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:54:10.070Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:54:10.077Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-19T22:54:10.078Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"87a606b8-9267-43da-a0af-5bbf7ac42a4f","timestamp":"2022-10-19T22:54:10.079Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-19T22:54:10.088Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:54:10.093Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:54:10.095Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:54:10.099Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:54:10.104Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:54:10.110Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-19T22:54:10.112Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"22f162ee-f6e4-41ed-98b6-a583beb0589e","timestamp":"2022-10-19T22:54:10.112Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:54:10.116Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:54:10.119Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:54:10.121Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:54:10.123Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:54:10.126Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-19T22:54:10.130Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"2ddf6a62-94a7-48c8-b102-e486a680b78e","timestamp":"2022-10-19T22:54:10.131Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-19T22:54:10.132Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-19T22:54:10.134Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:54:10.137Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:54:10.139Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:54:10.142Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:54:10.143Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-19T22:54:10.146Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-19T22:54:10.160Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:55:00.026Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-19T22:55:00.042Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"d5b34c96-43d4-4d4e-b117-8ce18f33dd1e","timestamp":"2022-10-19T22:55:00.043Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-19T22:55:00.081Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:56:00.007Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:57:00.062Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:58:00.057Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T22:59:00.056Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:00:00.050Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-19T23:00:00.058Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"3284737f-feca-4d01-85dc-7096d03b4e2e","timestamp":"2022-10-19T23:00:00.059Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-19T23:00:00.065Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Download Sync Reset","timestamp":"2022-10-19T23:00:00.076Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-19T23:00:00.105Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:01:00.047Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:02:00.045Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:03:00.066Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:04:00.047Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:05:00.007Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-19T23:05:00.012Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"8cd54764-f89d-4a44-9670-0f5776824861","timestamp":"2022-10-19T23:05:00.014Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-19T23:05:00.066Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:06:00.019Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:07:00.042Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:08:00.005Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:09:00.045Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:10:00.022Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-19T23:10:00.035Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"629f55fa-fca1-4b06-8680-0691cdcc2fae","timestamp":"2022-10-19T23:10:00.035Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-19T23:10:00.043Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-19T23:10:00.075Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:11:00.072Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:12:00.015Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:13:00.072Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:14:00.049Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:15:00.054Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-19T23:15:00.061Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"9af3bcf6-bf48-42cf-a982-e7dd3c97e4af","timestamp":"2022-10-19T23:15:00.063Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-19T23:15:00.118Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:16:00.041Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:17:00.031Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:18:00.016Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:19:00.025Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:20:00.037Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-19T23:20:00.051Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"18d801fb-8551-4fcb-b88a-a833ac7bfaf5","timestamp":"2022-10-19T23:20:00.052Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-19T23:20:00.062Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-19T23:20:00.094Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:21:00.052Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:22:00.056Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:23:00.043Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:24:00.067Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:25:00.040Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-19T23:25:00.051Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"8eeb2957-c3ad-4928-b615-70171e9430d2","timestamp":"2022-10-19T23:25:00.051Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-19T23:25:00.087Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:26:00.006Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:27:00.063Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:28:00.053Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:29:00.047Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:30:00.045Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-19T23:30:00.054Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"2d68acd0-c2b4-4875-b09f-3b997a307f4f","timestamp":"2022-10-19T23:30:00.055Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-19T23:30:00.064Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-19T23:30:00.100Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:31:00.022Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:32:00.070Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:33:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:34:00.056Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:35:00.020Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-19T23:35:00.029Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"92f39258-f583-4b5d-bd70-27e309811f87","timestamp":"2022-10-19T23:35:00.030Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-19T23:35:00.068Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:37:28.085Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-19T23:37:28.096Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.786Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.792Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.797Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T00:09:19.800Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"8b9a6711-2ce0-4a96-885f-bf163f74ab12","timestamp":"2022-10-20T00:09:19.800Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T00:09:19.808Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.810Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.814Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.816Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.819Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.828Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T00:09:19.830Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"e4e2d91a-9427-4fc6-b46d-0873dc3e61d5","timestamp":"2022-10-20T00:09:19.830Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.832Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.833Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.835Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.837Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.840Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T00:09:19.840Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"d61d00c1-eba5-4a9f-aa91-836e318bb6be","timestamp":"2022-10-20T00:09:19.841Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T00:09:19.843Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.844Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.845Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.848Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.850Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.852Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T00:09:19.852Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"da64193f-e438-40ab-b393-edee9d0b6feb","timestamp":"2022-10-20T00:09:19.852Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.854Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.855Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.856Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.859Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.862Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T00:09:19.866Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"4136ea4f-5b01-49d2-9629-407aea663b17","timestamp":"2022-10-20T00:09:19.866Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T00:09:19.870Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.873Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.878Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.882Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T00:09:19.883Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.886Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.892Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T00:09:19.894Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"401d51b5-91c7-4992-863d-58812164cb0a","timestamp":"2022-10-20T00:09:19.895Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.899Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.902Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T00:09:19.902Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.907Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:09:19.909Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T00:09:19.910Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T00:09:19.915Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T00:09:19.921Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T00:09:19.931Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:21:53.927Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T00:21:53.941Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"15d97261-8d1b-4290-869a-f2a54886ab5e","timestamp":"2022-10-20T00:21:53.942Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T00:21:53.949Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:21:53.955Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:21:53.958Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:21:53.961Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:21:53.964Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:21:53.966Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T00:21:53.971Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"36d59cb4-5fb2-44f2-a537-6c8c23a399e0","timestamp":"2022-10-20T00:21:53.972Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:21:53.975Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:21:53.978Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:21:53.981Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:21:53.984Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:21:53.987Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T00:21:53.989Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"b351d69c-0b95-4afc-9f41-22679e690e71","timestamp":"2022-10-20T00:21:53.989Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T00:21:53.992Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:21:53.993Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T00:21:53.995Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T00:21:54.003Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T00:21:54.010Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T00:22:00.009Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.004Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.016Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.018Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T01:40:56.025Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"e4fe9635-c6c7-4d2d-8597-9abfe08b08bc","timestamp":"2022-10-20T01:40:56.027Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.041Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.044Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.048Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.053Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.056Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T01:40:56.070Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"71c8bc83-1e16-454f-9a7a-5980514db743","timestamp":"2022-10-20T01:40:56.070Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T01:40:56.073Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.075Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.080Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.082Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.085Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.088Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T01:40:56.089Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"d90c3190-ef9a-40d9-8173-e5b79add9c01","timestamp":"2022-10-20T01:40:56.090Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.092Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.093Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.096Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.098Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.101Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T01:40:56.102Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"32276985-6a0a-4ea2-87ab-88f2732e35e2","timestamp":"2022-10-20T01:40:56.102Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T01:40:56.105Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.106Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.107Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.109Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.110Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.111Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T01:40:56.112Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"062d364f-ea2d-4bb5-a03a-3b69dd1c233c","timestamp":"2022-10-20T01:40:56.112Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.116Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.117Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.119Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.121Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.122Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T01:40:56.124Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"f436c797-5b39-4bf8-b0fc-6257fe17d331","timestamp":"2022-10-20T01:40:56.125Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T01:40:56.127Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.131Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.133Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.138Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.140Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T01:40:56.141Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.142Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T01:40:56.144Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"0699effe-cc68-4a94-9611-b6cbecba747a","timestamp":"2022-10-20T01:40:56.144Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T01:40:56.145Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.147Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T01:40:56.147Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T01:40:56.149Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.150Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.153Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.155Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.157Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T01:40:56.158Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"5512e078-0e38-4135-b4e4-8d6c41da1325","timestamp":"2022-10-20T01:40:56.159Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T01:40:56.160Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Full Library Scan","timestamp":"2022-10-20T01:40:56.165Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"48b04dfb-9ff1-4ef1-9a7a-8e414eac784d","timestamp":"2022-10-20T01:40:56.165Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.167Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.169Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T01:40:56.170Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.171Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.172Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.174Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T01:40:56.174Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T01:40:56.175Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"6d66dd81-c0fd-4abb-be18-9d397fcf6d16","timestamp":"2022-10-20T01:40:56.176Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.178Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.179Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.180Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.183Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.184Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T01:40:56.185Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"ac5e0b58-9337-4906-a317-030d1b48b9dc","timestamp":"2022-10-20T01:40:56.185Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T01:40:56.196Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.198Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T01:40:56.199Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.201Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T01:40:56.201Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.203Z"}
+{"label":"Plex Scan","level":"info","message":"Full Scan Complete","timestamp":"2022-10-20T01:40:56.203Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.204Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.206Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T01:40:56.207Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"88442b57-cc84-46f2-97e7-401d15493381","timestamp":"2022-10-20T01:40:56.208Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.209Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.211Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.212Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.214Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T01:40:56.214Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.214Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T01:40:56.217Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"aae983d1-62e3-4225-b2d7-224e9135504a","timestamp":"2022-10-20T01:40:56.217Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T01:40:56.218Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.220Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.222Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.223Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.224Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.227Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T01:40:56.229Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"978bdbbd-c7fd-4780-83c3-9efa3124ecac","timestamp":"2022-10-20T01:40:56.229Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.231Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T01:40:56.231Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.233Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.234Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.236Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.237Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T01:40:56.238Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"3f6e1c67-fa77-4f8f-a173-b1e40bdeea56","timestamp":"2022-10-20T01:40:56.239Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T01:40:56.242Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T01:40:56.242Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.244Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.246Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.248Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.249Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.250Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T01:40:56.252Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"358b5544-01c3-4844-bfb5-bf7c7fd91d5b","timestamp":"2022-10-20T01:40:56.253Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.255Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.256Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T01:40:56.257Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.258Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.259Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:40:56.262Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T01:40:56.263Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"71d4d817-6544-4b6d-a50c-aabe6fad8880","timestamp":"2022-10-20T01:40:56.264Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T01:40:56.266Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T01:40:56.268Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T01:40:56.269Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T01:40:56.276Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T01:40:56.284Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T01:41:00.009Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.181Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.190Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.202Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.207Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T02:26:32.210Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"cc32e872-85ae-49ab-809b-8d5db1a15950","timestamp":"2022-10-20T02:26:32.211Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.219Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.222Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.226Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.232Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.235Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T02:26:32.236Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"7cdc145f-9e7a-436f-bea6-7aebdfe4f898","timestamp":"2022-10-20T02:26:32.236Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T02:26:32.239Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.241Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.244Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.246Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.249Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.252Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T02:26:32.255Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"6baab344-efea-4ce3-aba8-5bf354a8d7c0","timestamp":"2022-10-20T02:26:32.255Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.258Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T02:26:32.259Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.260Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.263Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.264Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.268Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T02:26:32.270Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"ede0653c-2478-4510-9c8e-71788878cb6b","timestamp":"2022-10-20T02:26:32.270Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T02:26:32.273Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T02:26:32.274Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Radarr Scan","timestamp":"2022-10-20T02:26:32.277Z"}
+{"label":"Radarr Scan","level":"info","message":"Scan starting","sessionId":"f07caa03-fed7-45e2-a5c1-5375589a1267","timestamp":"2022-10-20T02:26:32.277Z"}
+{"label":"Radarr Scan","level":"info","message":"Radarr scan complete","timestamp":"2022-10-20T02:26:32.277Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.280Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.282Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.284Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.285Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.290Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T02:26:32.291Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T02:26:32.293Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"9f7ce9bc-94dc-4ee4-8901-5f37381e24b7","timestamp":"2022-10-20T02:26:32.293Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.296Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.298Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.299Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.301Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.303Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T02:26:32.305Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"a222ffc5-dec3-4062-82f8-6df8cc44c60f","timestamp":"2022-10-20T02:26:32.305Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T02:26:32.305Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T02:26:32.306Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.308Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.310Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.311Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.313Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.315Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T02:26:32.316Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"cd400319-d209-40de-89bc-3c2d52388bf9","timestamp":"2022-10-20T02:26:32.316Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T02:26:32.316Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.317Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.319Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.320Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.323Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.325Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T02:26:32.326Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"a2c05a1e-f4f4-4b95-b18d-dbc8812d14ee","timestamp":"2022-10-20T02:26:32.327Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T02:26:32.328Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.330Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T02:26:32.331Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.332Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.333Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.337Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.338Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T02:26:32.340Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"d94aab44-ca19-44b9-8bba-6b2506ab88e3","timestamp":"2022-10-20T02:26:32.340Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T02:26:32.341Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:26:32.341Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T02:26:32.351Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T02:26:32.355Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:45:09.881Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:45:09.886Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:45:09.889Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:45:09.892Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T02:45:09.894Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"a9e5cb15-8a5c-469d-9f62-425427f65384","timestamp":"2022-10-20T02:45:09.894Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T02:45:09.897Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Sonarr Scan","timestamp":"2022-10-20T02:45:09.901Z"}
+{"label":"Sonarr Scan","level":"info","message":"Scan starting","sessionId":"cfd9a3cf-6c7e-49e1-bb9c-b786e7c016e2","timestamp":"2022-10-20T02:45:09.902Z"}
+{"label":"Sonarr Scan","level":"info","message":"Sonarr scan complete","timestamp":"2022-10-20T02:45:09.902Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:45:09.903Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:45:09.906Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:45:09.909Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:45:09.913Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:45:09.916Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T02:45:09.917Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"0056cff2-2979-48ef-9509-d2331118bf86","timestamp":"2022-10-20T02:45:09.917Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:45:09.919Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:45:09.920Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:45:09.921Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:45:09.922Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:45:09.923Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T02:45:09.924Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"39507b0c-168b-41c8-9ec1-7d654def4779","timestamp":"2022-10-20T02:45:09.924Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T02:45:09.926Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:45:09.928Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:45:09.931Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:45:09.932Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:45:09.934Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T02:45:09.936Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T02:45:09.937Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"fb2bcf7c-a65d-44a7-95ec-74c92660d771","timestamp":"2022-10-20T02:45:09.937Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T02:45:09.942Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T02:45:09.949Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T02:45:09.953Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T02:45:09.956Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.851Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.856Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.857Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.859Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.860Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T03:58:46.862Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"cbeedea2-394a-4226-8fc4-9a06a492902b","timestamp":"2022-10-20T03:58:46.862Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T03:58:46.863Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.865Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.867Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.869Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.870Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.873Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T03:58:46.875Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"e67697f8-c39e-48af-a3ef-6d1c20c62f03","timestamp":"2022-10-20T03:58:46.875Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.878Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.880Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.881Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.883Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.885Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T03:58:46.887Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"25b41d13-9164-4f8a-acc8-6654c6bbe3e0","timestamp":"2022-10-20T03:58:46.887Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T03:58:46.891Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.894Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T03:58:46.895Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.896Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.898Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.901Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.903Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T03:58:46.905Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"a36eaeba-5eb3-4e38-9624-4a212d1e3212","timestamp":"2022-10-20T03:58:46.905Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.907Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T03:58:46.908Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.910Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.911Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.913Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.914Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T03:58:46.918Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"423eeaf5-6d4d-49c1-a632-7f01c865b383","timestamp":"2022-10-20T03:58:46.918Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T03:58:46.921Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.922Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T03:58:46.923Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.926Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.927Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.931Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.932Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T03:58:46.933Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"a3bd86b5-fe63-4323-8f49-4830949c88ff","timestamp":"2022-10-20T03:58:46.934Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.935Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.937Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.938Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T03:58:46.938Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.941Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.943Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T03:58:46.943Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"6c1c445d-e2c3-4437-af63-d6c578182fb4","timestamp":"2022-10-20T03:58:46.944Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T03:58:46.945Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.946Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.948Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T03:58:46.949Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.951Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.952Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.953Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T03:58:46.954Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"a8ce7d4e-2b94-4050-874e-d6f1e4ab2b45","timestamp":"2022-10-20T03:58:46.955Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.956Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.958Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.959Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.960Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.963Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T03:58:46.965Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"3f313fdf-afd3-47c0-9fad-bc8c5717826e","timestamp":"2022-10-20T03:58:46.965Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T03:58:46.966Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T03:58:46.967Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.968Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.969Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.970Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.971Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.972Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T03:58:46.974Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"0ef97268-c79d-4b36-86ab-fd19e8dc9140","timestamp":"2022-10-20T03:58:46.974Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T03:58:46.975Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.976Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.977Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.979Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.980Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.981Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T03:58:46.982Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"5656157d-247a-4ce4-82bf-31165da67e35","timestamp":"2022-10-20T03:58:46.982Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T03:58:46.984Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.986Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T03:58:46.986Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.987Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.989Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.991Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.992Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T03:58:46.993Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"c9e62726-3a39-4096-b1e9-b082d5b071ca","timestamp":"2022-10-20T03:58:46.993Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.995Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.996Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.997Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:46.998Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:47.001Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T03:58:47.003Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"218cf7ed-db99-4553-8eed-83061d4b3b89","timestamp":"2022-10-20T03:58:47.003Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T03:58:47.004Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:47.006Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T03:58:47.007Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:47.008Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:47.009Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T03:58:47.010Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:47.011Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:47.013Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T03:58:47.014Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"ace49048-cec9-4897-95c8-f1ea70ed1ecf","timestamp":"2022-10-20T03:58:47.014Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:47.015Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:47.018Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:58:47.019Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T03:58:47.019Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T03:58:47.023Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T03:58:47.030Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T03:58:47.035Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T03:59:00.030Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:54.926Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T05:00:54.946Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"3fc7e8e6-f4a9-4983-83ea-a87522f53ebe","timestamp":"2022-10-20T05:00:54.948Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T05:00:54.961Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:54.966Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:54.972Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:54.976Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:54.979Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:54.982Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T05:00:54.995Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"8e9e9ce2-c106-4946-89ce-155db0f3750d","timestamp":"2022-10-20T05:00:54.996Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:54.997Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.000Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.002Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.005Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.007Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T05:00:55.008Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"9169d67e-b466-4bfd-83b1-ee119b86515a","timestamp":"2022-10-20T05:00:55.008Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T05:00:55.010Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.011Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.012Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.013Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.015Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.018Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T05:00:55.019Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"c21f8bdd-09e9-4580-8031-056acfd4f872","timestamp":"2022-10-20T05:00:55.020Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.021Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.025Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.027Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.029Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.032Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T05:00:55.034Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"f38cca3f-043e-44b1-aa63-c8f8665bcbcb","timestamp":"2022-10-20T05:00:55.034Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T05:00:55.036Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.040Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.042Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T05:00:55.043Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.045Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T05:00:55.046Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.048Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.050Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T05:00:55.053Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"4bffa2d5-64a4-4a27-9700-5c853d324137","timestamp":"2022-10-20T05:00:55.053Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.058Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.060Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T05:00:55.060Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T05:00:55.060Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.062Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.064Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.070Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T05:00:55.071Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"9534aca9-c384-4c2e-9afa-7e74728eda22","timestamp":"2022-10-20T05:00:55.071Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T05:00:55.074Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.079Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.081Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T05:00:55.082Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.083Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.085Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T05:00:55.085Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.087Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T05:00:55.090Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"f199feec-b497-455e-b151-049de96f422a","timestamp":"2022-10-20T05:00:55.090Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.092Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.094Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.096Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.099Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.103Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T05:00:55.106Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"452b611a-c144-488e-a59a-ffa285b398a9","timestamp":"2022-10-20T05:00:55.107Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T05:00:55.108Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T05:00:55.109Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.111Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.112Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.114Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.116Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.118Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T05:00:55.119Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"a292458f-2e7b-43e4-a9a0-0cf482cd4308","timestamp":"2022-10-20T05:00:55.120Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.122Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T05:00:55.122Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.124Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.125Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.127Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.129Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T05:00:55.130Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"568fd596-06e6-4821-a9fd-6569ba55fa4a","timestamp":"2022-10-20T05:00:55.131Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T05:00:55.132Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.134Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.137Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T05:00:55.138Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.140Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.141Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T05:00:55.142Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.143Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T05:00:55.145Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"03932037-1bbc-4b32-b244-8feaad8a8eb1","timestamp":"2022-10-20T05:00:55.146Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.147Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.149Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.150Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.152Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:00:55.153Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T05:00:55.154Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"4435f8db-240d-4ba7-ae70-910f92ef8d46","timestamp":"2022-10-20T05:00:55.154Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T05:00:55.155Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T05:00:55.161Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T05:00:55.167Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T05:00:55.170Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:11:33.839Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:11:33.844Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:11:33.856Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:11:33.861Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:11:33.864Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T05:11:33.867Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"4b7d63e7-6ecf-4fd0-8603-ee1b3ef5fd46","timestamp":"2022-10-20T05:11:33.868Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:11:33.872Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:11:33.876Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:11:33.880Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:11:33.882Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:11:33.884Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T05:11:33.886Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"0b38e55e-90f8-4633-bca3-b8324e1f2ca2","timestamp":"2022-10-20T05:11:33.886Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T05:11:33.893Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:11:33.896Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T05:11:33.912Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T05:11:33.916Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:12:00.021Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:18:07.184Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:18:07.192Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:18:07.198Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T05:18:07.202Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"6f496f4c-66af-488d-a586-fe0d19c81587","timestamp":"2022-10-20T05:18:07.203Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:18:07.218Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:18:07.222Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:18:07.230Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T05:18:07.254Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:20:41.087Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:20:41.098Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T05:20:41.101Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"f84d2dde-9c98-4f24-9365-741f4498b952","timestamp":"2022-10-20T05:20:41.101Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T05:20:41.109Z"}
+{"errorMessage":"getaddrinfo ENOTFOUND 172-30-0-3.52fc8f5909e346f8b6dfb4fd90a4455e.plex.direct","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2022-10-20T05:20:41.126Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:21:00.101Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:22:00.169Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:23:00.746Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:24:00.518Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:25:00.404Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T05:25:00.411Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"d21444c9-5590-492b-8566-e0b579a5bbc4","timestamp":"2022-10-20T05:25:00.411Z"}
+{"errorMessage":"getaddrinfo ENOTFOUND 172-30-0-3.52fc8f5909e346f8b6dfb4fd90a4455e.plex.direct","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2022-10-20T05:25:00.432Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:26:00.507Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:27:00.553Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:28:02.313Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:29:00.563Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:30:00.951Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T05:30:00.968Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"d6353c5a-8b19-4809-965c-21496e433041","timestamp":"2022-10-20T05:30:00.968Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T05:30:00.975Z"}
+{"errorMessage":"getaddrinfo ENOTFOUND 172-30-0-3.52fc8f5909e346f8b6dfb4fd90a4455e.plex.direct","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2022-10-20T05:30:00.996Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:32:03.526Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:32:03.530Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:34:05.280Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:34:05.295Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:44:29.646Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T05:44:29.659Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"ce6036fe-ee5b-435e-8572-14d37b7b142d","timestamp":"2022-10-20T05:44:29.660Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:44:29.666Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:44:29.671Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:44:29.673Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:44:29.677Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:44:29.678Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T05:44:29.680Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"0112351d-bab5-4bfe-8389-cf3b7d165c22","timestamp":"2022-10-20T05:44:29.681Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T05:44:29.685Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:44:29.688Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:44:29.691Z"}
+{"errorMessage":"getaddrinfo ENOTFOUND 172-30-0-3.52fc8f5909e346f8b6dfb4fd90a4455e.plex.direct","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2022-10-20T05:44:29.692Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:44:29.694Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:44:29.696Z"}
+{"errorMessage":"getaddrinfo ENOTFOUND 172-30-0-3.52fc8f5909e346f8b6dfb4fd90a4455e.plex.direct","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2022-10-20T05:44:29.702Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:45:05.283Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T05:45:05.294Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"a2320060-370b-448a-8181-456c2b062dd6","timestamp":"2022-10-20T05:45:05.295Z"}
+{"errorMessage":"getaddrinfo ENOTFOUND 172-30-0-3.52fc8f5909e346f8b6dfb4fd90a4455e.plex.direct","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2022-10-20T05:45:05.323Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:46:02.580Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:48:36.356Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:48:36.362Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:50:53.754Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:50:53.756Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T05:50:53.758Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"56f59b57-8272-4d6d-a76e-529b0299d242","timestamp":"2022-10-20T05:50:53.759Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T05:50:53.765Z"}
+{"errorMessage":"getaddrinfo ENOTFOUND 172-30-0-3.52fc8f5909e346f8b6dfb4fd90a4455e.plex.direct","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2022-10-20T05:50:53.785Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:51:00.014Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:54:38.483Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:54:38.489Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:54:38.497Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:58:53.093Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T05:58:53.099Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"8cb99f2e-0f0b-428e-951e-72ee4d6df095","timestamp":"2022-10-20T05:58:53.100Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:58:53.107Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:58:53.127Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:58:53.130Z"}
+{"errorMessage":"getaddrinfo ENOTFOUND 172-30-0-3.52fc8f5909e346f8b6dfb4fd90a4455e.plex.direct","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2022-10-20T05:58:53.141Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T05:59:00.013Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T06:01:05.614Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T06:01:05.618Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"758d9712-ba82-4140-928b-4f2916b8dc12","timestamp":"2022-10-20T06:01:05.618Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T06:01:05.622Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T06:01:05.625Z"}
+{"errorMessage":"getaddrinfo ENOTFOUND 172-30-0-3.52fc8f5909e346f8b6dfb4fd90a4455e.plex.direct","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2022-10-20T06:01:05.645Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T06:02:12.659Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T06:03:00.769Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T06:04:04.010Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T06:05:02.228Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T06:05:02.238Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"5d033a6a-f12c-43a4-a4b2-5b833bcebc09","timestamp":"2022-10-20T06:05:02.239Z"}
+{"errorMessage":"getaddrinfo ENOTFOUND 172-30-0-3.52fc8f5909e346f8b6dfb4fd90a4455e.plex.direct","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2022-10-20T06:05:02.293Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T06:06:03.180Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T06:07:44.651Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T06:08:00.360Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T06:09:00.030Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T06:10:00.025Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2022-10-20T06:10:00.029Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"70504aeb-76dc-4b3c-bbf2-2265742bdb28","timestamp":"2022-10-20T06:10:00.029Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2022-10-20T06:10:00.039Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2022-10-20T06:10:00.145Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T06:11:00.022Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2022-10-20T06:12:00.002Z"}

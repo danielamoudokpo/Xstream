@@ -1,0 +1,24 @@
+Oct 17, 2022 16:19:36.212 [0x400348fb38] INFO - Plex Tuner Service v1.0.0.0 - Docker Docker Container x86_64 - build: 
+Oct 17, 2022 16:19:36.234 [0x400348fb38] INFO - Linux version: 5.10.124-linuxkit (#1 SMP PREEMPT Thu Jun 30 08:18:26 UTC 2022), language: en-US
+Oct 17, 2022 16:19:36.236 [0x400348fb38] INFO - Processor QEMU TCG CPU version 2.5+
+Oct 17, 2022 16:19:36.237 [0x400348fb38] INFO - /usr/lib/plexmediaserver/Plex Tuner Service /usr/lib/plexmediaserver/Resources/Tuner/Private /usr/lib/plexmediaserver/Resources/Tuner/Shared 1.29.0.6244-819d3678c 32600
+Oct 17, 2022 16:19:36.161 [0x4001b2c808] INFO - [I] broker_t::start...
+Oct 17, 2022 16:19:36.213 [0x4001b2c808] INFO - [I] device_manager_t::init.
+Oct 17, 2022 16:19:36.213 [0x4001b2c808] INFO - [I] device_manager_t::init. Initialize provider manager
+Oct 17, 2022 16:19:36.213 [0x4001b2c808] INFO - [I] device_manager_t::init. Initialize all device auxes
+Oct 17, 2022 16:19:36.214 [0x4001b2c808] INFO - [I] dvb_device_factory_t::get_aux_list
+Oct 17, 2022 16:19:36.215 [0x4001b2c808] INFO - [I] tvbutler_aux_t::init
+Oct 17, 2022 16:19:36.247 [0x4001b2c808] INFO - [I] web_server_t::start. Starting web server on port 32600
+Oct 17, 2022 16:19:38.612 [0x4003bd2b38] INFO - [I] web_service_t::process_device_discovery
+Oct 17, 2022 16:19:38.613 [0x4003bd2b38] INFO - [I] device_reactor_t::get_device_list ()
+Oct 17, 2022 16:19:40.641 [0x4003bd2b38] INFO - [I] SAT2IP - discover_satip_servers(): no servers found
+Oct 17, 2022 16:19:41.057 [0x4003bd2b38] INFO - [I] v4l::DeviceGetList_impl. getting v4l device list
+Oct 17, 2022 16:19:41.070 [0x4003bd2b38] INFO - [I] onetv_factory::DeviceGetListEx >>
+Oct 17, 2022 16:19:41.072 [0x4003bd2b38] WARN - [W] onetv_factory::DeviceGetListEx. libusb_init returned an error -99
+Oct 19, 2022 09:39:24.071 [0x4001b2c808] INFO - Received SIGINT: Interrupt from keyboard.
+Oct 19, 2022 09:39:24.086 [0x4001b2c808] INFO - [I] device_manager_t::term
+Oct 19, 2022 09:39:24.086 [0x4001b2c808] INFO - [I] device_manager_t::term. Stop all devices
+Oct 19, 2022 09:39:24.087 [0x4001b2c808] INFO - [I] device_manager_t::term. Shut down all device auxes
+Oct 19, 2022 09:39:24.087 [0x4001b2c808] INFO - [I] tvbutler_aux_t::term
+Oct 19, 2022 09:39:24.094 [0x4001b2c808] INFO - [I] web_server_t::stop. Web server is stopped
+Oct 19, 2022 09:39:24.094 [0x4001b2c808] INFO - [I] device_manager_t::term
