@@ -1,0 +1,8 @@
+Jan 04, 2023 16:00:35.227 [0x4005714b00] INFO - Plex Media Scanner v1.29.0.6244-819d3678c - Docker Docker Container x86_64 - build: linux-x86_64 - GMT 00:00
+Jan 04, 2023 16:00:35.241 [0x4005714b00] INFO - Linux version: 5.10.124-linuxkit, language: en-US
+Jan 04, 2023 16:00:35.243 [0x4005714b00] INFO - Processor: 4-core QEMU TCG CPU version 2.5+
+Jan 04, 2023 16:00:35.244 [0x4005714b00] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 1 --log-file-suffix  Matcher --files /movies/Violent Night (2022)/Violent.Night.2022.1080p.WEBRip.1400MB.DD5.1.x264-GalaxyRG[TGx].mkv
+Jan 04, 2023 16:00:35.209 [0x4001ce0140] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.35.5, threadsafe=1
+Jan 04, 2023 16:00:35.803 [0x4001ce0140] DEBUG - Matcher: found 0 auxiliary files in "/movies/Violent Night (2022)" (single media: yes)
+Jan 04, 2023 16:00:35.804 [0x4001ce0140] DEBUG - Matcher: no sidecar subtitle files found for "/movies/Violent Night (2022)/Violent.Night.2022.1080p.WEBRip.1400MB.DD5.1.x264-GalaxyRG[TGx].mkv"
+Jan 04, 2023 16:00:35.820 [0x4001ce0140] DEBUG - Matcher: no valid subtitles found, removing any existing media bundle file
