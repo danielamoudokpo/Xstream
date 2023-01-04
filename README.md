@@ -13,5 +13,6 @@ docker-compose -f docker-compose.yml -f docker-compose-extra-services.yml up -d
 ## Authors
 
 AMOUDOKPO KOKOU DANIEL
+
 SAMSON Alexandre
 
