@@ -1,0 +1,10 @@
+#ignore file in media folder
+
+./medias/downloads/*
+./medias/movies/*
+./medias/tvseries/*
+
+./plex/movies/*
+./plex/tvseries/*
+
+./docker-compose.yml
