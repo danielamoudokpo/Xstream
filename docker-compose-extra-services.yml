@@ -12,7 +12,7 @@ services:
     volumes:
       - ./config/jackett/config:/config
     ports:
-      - 9117:9117
+      - ${JACKETT_PORT}:${JACKETT_PORT}
     restart: unless-stopped
 
   openvpn:
@@ -23,10 +23,10 @@ services:
     environment:
       - OPENVPN_PROVIDER=custom
       - OPENVPN_CONFIG=nl-free-128.protonvpn.net.udp
-      - OPENVPN_USERNAME=Ymnx8HarR1LcD3fE
-      - OPENVPN_PASSWORD=srVhQJ5QTHRQDTTfYm9QlGfABBXEK084
+      - OPENVPN_USERNAME=${OPENVPN_USERNAME}
+      - OPENVPN_PASSWORD=${OPENVPN_PASSWORD}
       - WEBPROXY_ENABLED=false
-      - LOCAL_NETWORK=192.168.0.0/16
+      - LOCAL_NETWORK=${LOCAL_NETWORK}
     volumes:
       - ./config/openvpn:/etc/openvpn/custom
     logging:
@@ -34,7 +34,7 @@ services:
       options:
         max-size: 10m
     ports:
-      - '8112:8112'
+      - ${OPENVPN_PORT}:${OPENVPN_PORT}
   deluge:
     image: linuxserver/deluge
     container_name: deluge
@@ -46,9 +46,9 @@ services:
       - UMASK_SET=022
     volumes:
       - ./config/deluge/:/config
-      - ./media/downloads:/downloads
-      - ./media/movies:/movies
-      - ./media/tvseries:/tv
+      - ./medias/downloads:/downloads
+      - ./medias/movies:/movies
+      - ./medias/tvseries:/tv
     depends_on:
       - openvpn
     restart: unless-stopped
@@ -59,21 +59,20 @@ services:
     cap_add:
       - NET_ADMIN
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Europe/London
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ_PARIS}
       - URL=mybase1.duckdns.org
+      - ONLY_SUBDOMAINS=true
+      - SUBDOMAINS=wildcard
       - VALIDATION=duckdns
-      - SUBDOMAINS=http
-      - DUCKDNSTOKEN=42a4ac99-d309-4dab-a70f-82a0eec520a7
+      - DUCKDNSTOKEN=${DUCKDNSTOKEN}
     volumes:
       - ./config/swag/:/config
     ports:
-      - 443:443
-      - 80:80 
+      - ${SWAG_PORT}:${SWAG_PORT}
+      - ${NGINX_PORT}:${NGINX_PORT}
     restart: unless-stopped
-
 networks:
   default:
     name: my-plex-network
-    external: true

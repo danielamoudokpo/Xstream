@@ -41,6 +41,7 @@
         }
     },
     "torrent_labels": {
+        "44c47d27597648526e174c705302c7a3f0b462b2": "movies-radarr",
         "a6d6750797af2d19bd2076c46fb83727dd6685e3": "movies-radarr",
         "da28a59020a5ce0523754ce5332ddb2b190c27ca": "movies-radarr"
     }

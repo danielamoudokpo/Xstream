@@ -1,0 +1,35 @@
+Jan 04, 2023 10:56:38.098 [0x4005714b00] INFO - Plex Media Scanner v1.29.0.6244-819d3678c - Docker Docker Container x86_64 - build: linux-x86_64 - GMT 00:00
+Jan 04, 2023 10:56:38.114 [0x4005714b00] INFO - Linux version: 5.10.124-linuxkit, language: en-US
+Jan 04, 2023 10:56:38.116 [0x4005714b00] INFO - Processor: 4-core QEMU TCG CPU version 2.5+
+Jan 04, 2023 10:56:38.117 [0x4005714b00] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 1 --log-file-suffix  Matcher --item 1
+Jan 04, 2023 10:56:38.075 [0x4001ce0140] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.35.5, threadsafe=1
+Jan 04, 2023 10:56:38.667 [0x4001ce0140] DEBUG - [MI] Opening input file: "/movies/Streamers.mp4"
+Jan 04, 2023 10:56:38.672 [0x4001ce0140] DEBUG - [FFMPEG] - Opening '/movies/Streamers.mp4' for reading
+Jan 04, 2023 10:56:38.673 [0x4001ce0140] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Jan 04, 2023 10:56:38.687 [0x4001ce0140] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Jan 04, 2023 10:56:38.689 [0x4001ce0140] DEBUG - [FFMPEG] - ISO: File Type Major Brand: mp42
+Jan 04, 2023 10:56:38.691 [0x4001ce0140] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jan 04, 2023 10:56:38.697 [0x4001ce0140] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Jan 04, 2023 10:56:38.705 [0x4001ce0140] INFO - CodecManager: obtaining decoder 'h264'
+Jan 04, 2023 10:56:38.711 [0x4001ce0140] DEBUG - [HCl#1] HTTP requesting GET https://plex.tv/api/codecs/h264_decoder?build=linux-x86_64-standard&deviceId=1856ca80-965c-4f83-a017-2816e74c465e&oldestPreviousVersion=legacy&version=c4efa15-4369
+Jan 04, 2023 10:56:38.968 [0x4006da3b00] DEBUG - [HttpClient/HCl#1] HTTP/2.0 (0.3s) 200 response from GET https://plex.tv/api/codecs/h264_decoder?build=linux-x86_64-standard&deviceId=1856ca80-965c-4f83-a017-2816e74c465e&oldestPreviousVersion=legacy&version=c4efa15-4369
+Jan 04, 2023 10:56:38.980 [0x4001ce0140] DEBUG - [HCl#2] HTTP requesting GET https://downloads.plex.tv/codecs/c4efa15-4369/linux-x86_64-standard/libh264_decoder.so
+Jan 04, 2023 10:56:50.355 [0x4006da3b00] DEBUG - [HttpClient/HCl#2] HTTP simulating 408 after curl timeout
+Jan 04, 2023 10:56:50.373 [0x4001ce0140] ERROR - Codecs: Download failed: Failed to download 'https://downloads.plex.tv/codecs/c4efa15-4369/linux-x86_64-standard/libh264_decoder.so': 408
+Jan 04, 2023 10:56:50.382 [0x4001ce0140] ERROR - CodecManager: failed to install codec for h264
+Jan 04, 2023 10:56:50.382 [0x4001ce0140] ERROR - [MI] Failed to install codec h264
+Jan 04, 2023 10:56:50.384 [0x4001ce0140] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 72006 bytes read:98304 seeks:0 nb_streams:2
+Jan 04, 2023 10:56:50.404 [0x4001ce0140] DEBUG - [FFMPEG] - All info found
+Jan 04, 2023 10:56:50.407 [0x4001ce0140] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 128311 bytes read:131072 seeks:0 frames:15
+Jan 04, 2023 10:56:50.410 [0x4001ce0140] INFO - CodecManager: obtaining decoder 'h264'
+Jan 04, 2023 10:56:50.411 [0x4001ce0140] DEBUG - [HCl#3] HTTP requesting GET https://plex.tv/api/codecs/h264_decoder?build=linux-x86_64-standard&deviceId=1856ca80-965c-4f83-a017-2816e74c465e&oldestPreviousVersion=legacy&version=c4efa15-4369
+Jan 04, 2023 10:56:50.467 [0x4006da3b00] DEBUG - [HttpClient/HCl#3] HTTP/2.0 (0.1s) 200 response from GET https://plex.tv/api/codecs/h264_decoder?build=linux-x86_64-standard&deviceId=1856ca80-965c-4f83-a017-2816e74c465e&oldestPreviousVersion=legacy&version=c4efa15-4369 (reused)
+Jan 04, 2023 10:56:50.477 [0x4001ce0140] DEBUG - [HCl#4] HTTP requesting GET https://downloads.plex.tv/codecs/c4efa15-4369/linux-x86_64-standard/libh264_decoder.so
+Jan 04, 2023 10:57:01.840 [0x4006da3b00] DEBUG - [HttpClient/HCl#4] HTTP simulating 408 after curl timeout
+Jan 04, 2023 10:57:01.850 [0x4001ce0140] ERROR - Codecs: Download failed: Failed to download 'https://downloads.plex.tv/codecs/c4efa15-4369/linux-x86_64-standard/libh264_decoder.so': 408
+Jan 04, 2023 10:57:01.855 [0x4001ce0140] ERROR - CodecManager: failed to install codec for h264
+Jan 04, 2023 10:57:01.855 [0x4001ce0140] ERROR - [MI] Failed to install codec h264
+Jan 04, 2023 10:57:01.860 [0x4001ce0140] DEBUG - [MI] Closing input file: "/movies/Streamers.mp4"
+Jan 04, 2023 10:57:01.881 [0x4001ce0140] DEBUG - Matcher: found 0 auxiliary files in "/movies" (single media: yes)
+Jan 04, 2023 10:57:01.882 [0x4001ce0140] DEBUG - Matcher: no sidecar subtitle files found for "/movies/Streamers.mp4"
+Jan 04, 2023 10:57:01.893 [0x4001ce0140] DEBUG - Matcher: no valid subtitles found, removing any existing media bundle file

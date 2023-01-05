@@ -1015,3 +1015,1173 @@
 2023-01-04 17:43:31.1|Warn|Torznab|Indexer torrenttv rss sync didn't cover the period between 1/4/2023 4:28:00 PM and 1/4/2023 4:28:00 PM UTC. Search may be required.
 2023-01-04 17:43:31.1|Info|DownloadDecisionMaker|Processing 41 releases
 2023-01-04 17:43:31.2|Info|RssSyncService|RSS Sync Completed. Reports found: 41, Reports grabbed: 0
+2023-01-04 17:58:31.8|Info|RssSyncService|Starting RSS Sync
+2023-01-04 17:58:31.9|Warn|Torznab|Indexer torrenttv rss sync didn't cover the period between 1/4/2023 4:28:00 PM and 1/4/2023 4:28:00 PM UTC. Search may be required.
+2023-01-04 17:58:32.0|Info|DownloadDecisionMaker|Processing 41 releases
+2023-01-04 17:58:32.1|Info|RssSyncService|RSS Sync Completed. Reports found: 41, Reports grabbed: 0
+2023-01-04 18:13:32.6|Info|RssSyncService|Starting RSS Sync
+2023-01-04 18:13:33.0|Warn|Torznab|Indexer torrenttv rss sync didn't cover the period between 1/4/2023 4:28:00 PM and 1/4/2023 5:13:32 PM UTC. Search may be required.
+2023-01-04 18:13:33.7|Info|DownloadDecisionMaker|Processing 41 releases
+2023-01-04 18:13:34.0|Info|RssSyncService|RSS Sync Completed. Reports found: 41, Reports grabbed: 0
+2023-01-04 18:29:03.6|Info|RssSyncService|Starting RSS Sync
+2023-01-04 18:29:04.5|Warn|Torznab|Indexer torrenttv rss sync didn't cover the period between 1/4/2023 5:13:32 PM and 1/4/2023 5:29:04 PM UTC. Search may be required.
+2023-01-04 18:29:04.9|Info|DownloadDecisionMaker|Processing 41 releases
+2023-01-04 18:29:05.0|Info|RssSyncService|RSS Sync Completed. Reports found: 41, Reports grabbed: 0
+2023-01-04 18:47:31.2|Info|RssSyncService|Starting RSS Sync
+2023-01-04 18:47:31.3|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from openvpn
+
+[v3.0.9.1549] NzbDrone.Core.Download.Clients.DownloadClientUnavailableException: Unable to connect to Deluge, please check your settings ---> System.Net.WebException: DNS Name Resolution Failure: 'openvpn'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:95 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.ExecuteRequest[TResult] (NzbDrone.Common.Http.JsonRpcRequestBuilder requestBuilder, System.String method, System.Object[] arguments) [0x0000e] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:245 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.ExecuteRequest[TResult] (NzbDrone.Common.Http.JsonRpcRequestBuilder requestBuilder, System.String method, System.Object[] arguments) [0x0008a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:271 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.ProcessRequest[TResult] (NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings, System.String method, System.Object[] arguments) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:212 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.GetTorrentsByLabel (System.String label, NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings) [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:96 
+  at NzbDrone.Core.Download.Clients.Deluge.Deluge.GetItems () [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\Deluge.cs:114 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2023-01-04 18:47:31.4|Warn|Torznab|Indexer torrenttv rss sync didn't cover the period between 1/4/2023 5:29:04 PM and 1/4/2023 5:29:04 PM UTC. Search may be required.
+2023-01-04 18:47:31.4|Info|DownloadDecisionMaker|Processing 41 releases
+2023-01-04 18:47:31.5|Info|RssSyncService|RSS Sync Completed. Reports found: 41, Reports grabbed: 0
+2023-01-04 18:48:56.8|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from openvpn
+
+[v3.0.9.1549] NzbDrone.Core.Download.Clients.DownloadClientUnavailableException: Unable to connect to Deluge, please check your settings ---> System.Net.WebException: Error: ConnectFailure (No route to host): 'http://openvpn:8112/json' ---> System.Net.WebException: Error: ConnectFailure (No route to host) ---> System.Net.Sockets.SocketException: No route to host
+  at System.Net.Sockets.SocketAsyncResult.CheckIfThrowDelayedException () [0x00014] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.Sockets.Socket.EndConnect (System.IAsyncResult asyncResult) [0x0002c] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebConnection+<>c.<Connect>b__16_1 (System.IAsyncResult asyncResult) [0x00006] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Threading.Tasks.TaskFactory`1[TResult].FromAsyncCoreLogic (System.IAsyncResult iar, System.Func`2[T,TResult] endFunction, System.Action`1[T] endAction, System.Threading.Tasks.Task`1[TResult] promise, System.Boolean requiresSynchronization) [0x00019] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x001e1] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x0025d] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebConnection.InitConnection (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x000cc] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebOperation.Run () [0x0009a] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebCompletionSource`1[T].WaitForCompletion () [0x00094] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.HttpWebRequest.GetRequestStream () [0x00016] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000f7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:75 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x001c0] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:107 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.ExecuteRequest[TResult] (NzbDrone.Common.Http.JsonRpcRequestBuilder requestBuilder, System.String method, System.Object[] arguments) [0x0000e] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:245 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.ExecuteRequest[TResult] (NzbDrone.Common.Http.JsonRpcRequestBuilder requestBuilder, System.String method, System.Object[] arguments) [0x0008a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:271 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.ProcessRequest[TResult] (NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings, System.String method, System.Object[] arguments) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:212 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.GetTorrentsByLabel (System.String label, NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings) [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:96 
+  at NzbDrone.Core.Download.Clients.Deluge.Deluge.GetItems () [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\Deluge.cs:114 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2023-01-04 19:06:09.9|Info|RssSyncService|Starting RSS Sync
+2023-01-04 19:06:10.4|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from openvpn
+
+[v3.0.9.1549] NzbDrone.Core.Download.Clients.DownloadClientUnavailableException: Unable to connect to Deluge, please check your settings ---> System.Net.WebException: DNS Name Resolution Failure: 'openvpn'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:95 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.ExecuteRequest[TResult] (NzbDrone.Common.Http.JsonRpcRequestBuilder requestBuilder, System.String method, System.Object[] arguments) [0x0000e] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:245 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.ExecuteRequest[TResult] (NzbDrone.Common.Http.JsonRpcRequestBuilder requestBuilder, System.String method, System.Object[] arguments) [0x0008a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:271 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.ProcessRequest[TResult] (NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings, System.String method, System.Object[] arguments) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:212 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.GetTorrentsByLabel (System.String label, NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings) [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:96 
+  at NzbDrone.Core.Download.Clients.Deluge.Deluge.GetItems () [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\Deluge.cs:114 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2023-01-04 19:06:11.9|Warn|Torznab|Indexer torrenttv rss sync didn't cover the period between 1/4/2023 5:29:04 PM and 1/4/2023 6:06:11 PM UTC. Search may be required.
+2023-01-04 19:06:12.8|Info|DownloadDecisionMaker|Processing 41 releases
+2023-01-04 19:06:12.9|Info|RssSyncService|RSS Sync Completed. Reports found: 41, Reports grabbed: 0
+2023-01-04 19:45:32.3|Info|RssSyncService|Starting RSS Sync
+2023-01-04 19:45:32.8|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from openvpn
+
+[v3.0.9.1549] NzbDrone.Core.Download.Clients.DownloadClientUnavailableException: Unable to connect to Deluge, please check your settings ---> System.Net.WebException: DNS Name Resolution Failure: 'openvpn'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:95 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.ExecuteRequest[TResult] (NzbDrone.Common.Http.JsonRpcRequestBuilder requestBuilder, System.String method, System.Object[] arguments) [0x0000e] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:245 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.ExecuteRequest[TResult] (NzbDrone.Common.Http.JsonRpcRequestBuilder requestBuilder, System.String method, System.Object[] arguments) [0x0008a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:271 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.ProcessRequest[TResult] (NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings, System.String method, System.Object[] arguments) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:212 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.GetTorrentsByLabel (System.String label, NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings) [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:96 
+  at NzbDrone.Core.Download.Clients.Deluge.Deluge.GetItems () [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\Deluge.cs:114 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2023-01-04 19:45:33.0|Warn|Torznab|Indexer torrenttv rss sync didn't cover the period between 1/4/2023 6:06:11 PM and 1/4/2023 6:45:32 PM UTC. Search may be required.
+2023-01-04 19:45:34.7|Info|DownloadDecisionMaker|Processing 41 releases
+2023-01-04 19:45:34.8|Info|RssSyncService|RSS Sync Completed. Reports found: 41, Reports grabbed: 0
+2023-01-04 20:00:52.5|Info|RssSyncService|Starting RSS Sync
+2023-01-04 20:00:52.6|Warn|Torznab|Indexer torrenttv rss sync didn't cover the period between 1/4/2023 6:45:32 PM and 1/4/2023 6:45:32 PM UTC. Search may be required.
+2023-01-04 20:00:52.6|Info|DownloadDecisionMaker|Processing 41 releases
+2023-01-04 20:00:52.8|Info|RssSyncService|RSS Sync Completed. Reports found: 41, Reports grabbed: 0
+2023-01-04 20:08:23.1|Info|SceneMappingService|Updating Scene mappings
+2023-01-04 20:15:53.6|Info|RssSyncService|Starting RSS Sync
+2023-01-04 20:15:53.7|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from openvpn
+
+[v3.0.9.1549] NzbDrone.Core.Download.Clients.DownloadClientUnavailableException: Unable to connect to Deluge, please check your settings ---> System.Net.WebException: DNS Name Resolution Failure: 'openvpn'
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:95 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.ExecuteRequest[TResult] (NzbDrone.Common.Http.JsonRpcRequestBuilder requestBuilder, System.String method, System.Object[] arguments) [0x0000e] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:245 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.ExecuteRequest[TResult] (NzbDrone.Common.Http.JsonRpcRequestBuilder requestBuilder, System.String method, System.Object[] arguments) [0x0008a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:271 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.ProcessRequest[TResult] (NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings, System.String method, System.Object[] arguments) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:212 
+  at NzbDrone.Core.Download.Clients.Deluge.DelugeProxy.GetTorrentsByLabel (System.String label, NzbDrone.Core.Download.Clients.Deluge.DelugeSettings settings) [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\DelugeProxy.cs:96 
+  at NzbDrone.Core.Download.Clients.Deluge.Deluge.GetItems () [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Deluge\Deluge.cs:114 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2023-01-04 20:15:53.7|Warn|Torznab|Indexer torrenttv rss sync didn't cover the period between 1/4/2023 6:45:32 PM and 1/4/2023 6:45:32 PM UTC. Search may be required.
+2023-01-04 20:15:53.8|Info|DownloadDecisionMaker|Processing 41 releases
+2023-01-04 20:15:54.0|Info|RssSyncService|RSS Sync Completed. Reports found: 41, Reports grabbed: 0
+2023-01-04 20:23:23.8|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-04 20:23:25.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 20:23:25.3|Info|Router|Application mode: Interactive
+2023-01-04 20:23:25.6|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 20:23:26.1|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 20:23:28.2|Info|OwinHostController|Listening on the following URLs:
+2023-01-04 20:23:28.2|Info|OwinHostController|  http://*:8989/
+2023-01-04 20:23:29.7|Info|SonarrBootstrapper|Starting Web Server
+2023-01-04 20:30:19.7|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-04 20:30:21.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 20:30:22.2|Info|Router|Application mode: Interactive
+2023-01-04 20:30:22.7|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 20:30:23.1|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 20:30:23.8|Info|OwinHostController|Listening on the following URLs:
+2023-01-04 20:30:23.8|Info|OwinHostController|  http://*:8989/
+2023-01-04 20:30:25.0|Info|SonarrBootstrapper|Starting Web Server
+2023-01-04 20:30:57.7|Info|RssSyncService|Starting RSS Sync
+2023-01-04 20:30:58.6|Warn|Torznab|Indexer torrenttv rss sync didn't cover the period between 1/4/2023 6:45:32 PM and 1/4/2023 7:30:58 PM UTC. Search may be required.
+2023-01-04 20:30:59.0|Info|DownloadDecisionMaker|Processing 41 releases
+2023-01-04 20:30:59.6|Info|RssSyncService|RSS Sync Completed. Reports found: 41, Reports grabbed: 0
+2023-01-04 20:37:49.6|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-04 20:37:50.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 20:37:51.6|Info|Router|Application mode: Interactive
+2023-01-04 20:37:52.3|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 20:37:52.8|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 20:37:53.2|Info|OwinHostController|Listening on the following URLs:
+2023-01-04 20:37:53.2|Info|OwinHostController|  http://*:8989/
+2023-01-04 20:37:54.3|Info|SonarrBootstrapper|Starting Web Server
+2023-01-04 20:42:06.5|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-04 20:42:07.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 20:42:07.5|Info|Router|Application mode: Interactive
+2023-01-04 20:42:07.8|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 20:42:08.2|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 20:42:08.6|Info|OwinHostController|Listening on the following URLs:
+2023-01-04 20:42:08.6|Info|OwinHostController|  http://*:8989/
+2023-01-04 20:42:09.4|Info|SonarrBootstrapper|Starting Web Server
+2023-01-04 20:46:11.7|Info|RssSyncService|Starting RSS Sync
+2023-01-04 20:46:12.8|Warn|Torznab|Indexer torrenttv rss sync didn't cover the period between 1/4/2023 7:30:58 PM and 1/4/2023 7:46:12 PM UTC. Search may be required.
+2023-01-04 20:46:13.3|Info|DownloadDecisionMaker|Processing 41 releases
+2023-01-04 20:46:13.8|Info|RssSyncService|RSS Sync Completed. Reports found: 41, Reports grabbed: 0
+2023-01-04 20:49:05.9|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-04 20:49:06.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 20:49:07.0|Info|Router|Application mode: Interactive
+2023-01-04 20:49:07.3|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 20:49:07.7|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 20:49:08.4|Info|OwinHostController|Listening on the following URLs:
+2023-01-04 20:49:08.4|Info|OwinHostController|  http://*:8989/
+2023-01-04 20:49:08.8|Info|SonarrBootstrapper|Starting Web Server
+2023-01-04 20:51:24.7|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-04 20:51:25.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 20:51:25.9|Info|Router|Application mode: Interactive
+2023-01-04 20:51:26.2|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 20:51:26.5|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 20:51:27.0|Info|OwinHostController|Listening on the following URLs:
+2023-01-04 20:51:27.0|Info|OwinHostController|  http://*:8989/
+2023-01-04 20:51:27.8|Info|SonarrBootstrapper|Starting Web Server
+2023-01-04 20:54:34.7|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-04 20:54:35.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 20:54:35.6|Info|Router|Application mode: Interactive
+2023-01-04 20:54:36.0|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 20:54:36.3|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 20:54:37.9|Info|OwinHostController|Listening on the following URLs:
+2023-01-04 20:54:38.0|Info|OwinHostController|  http://*:8989/
+2023-01-04 20:54:39.4|Info|SonarrBootstrapper|Starting Web Server
+2023-01-04 21:01:22.3|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-04 21:01:22.8|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 21:01:23.1|Info|Router|Application mode: Interactive
+2023-01-04 21:01:23.5|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:01:23.8|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:01:24.3|Info|OwinHostController|Listening on the following URLs:
+2023-01-04 21:01:24.3|Info|OwinHostController|  http://*:8989/
+2023-01-04 21:01:25.0|Info|SonarrBootstrapper|Starting Web Server
+2023-01-04 21:01:56.8|Info|RssSyncService|Starting RSS Sync
+2023-01-04 21:01:57.7|Warn|Torznab|Indexer torrenttv rss sync didn't cover the period between 1/4/2023 7:46:12 PM and 1/4/2023 8:01:57 PM UTC. Search may be required.
+2023-01-04 21:01:58.2|Info|DownloadDecisionMaker|Processing 41 releases
+2023-01-04 21:01:58.7|Info|RssSyncService|RSS Sync Completed. Reports found: 41, Reports grabbed: 0
+2023-01-04 21:05:20.4|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-04 21:05:21.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 21:05:21.4|Info|Router|Application mode: Interactive
+2023-01-04 21:05:21.7|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:05:22.1|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:05:22.5|Info|OwinHostController|Listening on the following URLs:
+2023-01-04 21:05:22.5|Info|OwinHostController|  http://*:8989/
+2023-01-04 21:05:23.5|Info|SonarrBootstrapper|Starting Web Server
+2023-01-04 21:07:07.8|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-04 21:07:10.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 21:07:10.7|Info|Router|Application mode: Interactive
+2023-01-04 21:07:11.3|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:07:11.7|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:07:12.2|Info|OwinHostController|Listening on the following URLs:
+2023-01-04 21:07:12.2|Info|OwinHostController|  http://*:8989/
+2023-01-04 21:07:13.1|Info|SonarrBootstrapper|Starting Web Server
+2023-01-04 21:08:19.9|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-04 21:08:20.8|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 21:08:21.1|Info|Router|Application mode: Interactive
+2023-01-04 21:08:21.6|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:08:22.0|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:08:22.7|Info|OwinHostController|Listening on the following URLs:
+2023-01-04 21:08:22.7|Info|OwinHostController|  http://*:8989/
+2023-01-04 21:08:25.2|Info|SonarrBootstrapper|Starting Web Server
+2023-01-04 21:11:37.4|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-04 21:11:37.8|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 21:11:38.1|Info|Router|Application mode: Interactive
+2023-01-04 21:11:38.3|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:11:38.6|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:11:39.0|Info|OwinHostController|Listening on the following URLs:
+2023-01-04 21:11:39.0|Info|OwinHostController|  http://*:8989/
+2023-01-04 21:11:39.8|Info|SonarrBootstrapper|Starting Web Server
+2023-01-04 21:13:27.1|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-04 21:13:27.8|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 21:13:28.1|Info|Router|Application mode: Interactive
+2023-01-04 21:13:28.5|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:13:28.7|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:13:29.3|Info|OwinHostController|Listening on the following URLs:
+2023-01-04 21:13:29.3|Info|OwinHostController|  http://*:8989/
+2023-01-04 21:13:29.8|Info|SonarrBootstrapper|Starting Web Server
+2023-01-04 21:17:01.8|Info|RssSyncService|Starting RSS Sync
+2023-01-04 21:17:02.2|Warn|Torznab|Indexer torrenttv rss sync didn't cover the period between 1/4/2023 8:01:57 PM and 1/4/2023 8:17:02 PM UTC. Search may be required.
+2023-01-04 21:17:02.9|Info|DownloadDecisionMaker|Processing 41 releases
+2023-01-04 21:17:03.4|Info|RssSyncService|RSS Sync Completed. Reports found: 41, Reports grabbed: 0
+2023-01-04 21:31:30.9|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-04 21:31:31.8|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 21:31:32.0|Info|Router|Application mode: Interactive
+2023-01-04 21:31:32.4|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:31:32.8|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:31:33.5|Info|OwinHostController|Listening on the following URLs:
+2023-01-04 21:31:33.5|Info|OwinHostController|  http://*:8989/
+2023-01-04 21:31:34.6|Info|SonarrBootstrapper|Starting Web Server
+2023-01-04 21:33:08.1|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-04 21:33:10.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-04 21:33:11.7|Info|Router|Application mode: Interactive
+2023-01-04 21:33:12.3|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:33:12.7|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-04 21:33:13.0|Info|OwinHostController|Listening on the following URLs:
+2023-01-04 21:33:13.0|Info|OwinHostController|  http://*:8989/
+2023-01-04 21:33:13.8|Info|SonarrBootstrapper|Starting Web Server
+2023-01-04 21:33:45.7|Info|RssSyncService|Starting RSS Sync
+2023-01-04 21:33:46.7|Warn|Torznab|Indexer torrenttv rss sync didn't cover the period between 1/4/2023 8:17:02 PM and 1/4/2023 8:33:46 PM UTC. Search may be required.
+2023-01-04 21:33:47.3|Info|DownloadDecisionMaker|Processing 41 releases
+2023-01-04 21:33:47.8|Info|RssSyncService|RSS Sync Completed. Reports found: 41, Reports grabbed: 0
+2023-01-04 21:49:16.3|Info|RssSyncService|Starting RSS Sync
+2023-01-04 21:49:16.5|Warn|Torznab|Indexer torrenttv rss sync didn't cover the period between 1/4/2023 8:33:46 PM and 1/4/2023 8:33:46 PM UTC. Search may be required.
+2023-01-04 21:49:16.5|Info|DownloadDecisionMaker|Processing 41 releases
+2023-01-04 21:49:16.7|Info|RssSyncService|RSS Sync Completed. Reports found: 41, Reports grabbed: 0
+2023-01-04 22:04:17.0|Info|RssSyncService|Starting RSS Sync
+2023-01-04 22:04:17.2|Warn|Torznab|Indexer torrenttv rss sync didn't cover the period between 1/4/2023 8:33:46 PM and 1/4/2023 8:33:46 PM UTC. Search may be required.
+2023-01-04 22:04:17.2|Info|DownloadDecisionMaker|Processing 41 releases
+2023-01-04 22:04:17.3|Info|RssSyncService|RSS Sync Completed. Reports found: 41, Reports grabbed: 0
+2023-01-04 22:19:17.9|Info|RssSyncService|Starting RSS Sync
+2023-01-04 22:19:18.3|Warn|Torznab|Indexer torrenttv rss sync didn't cover the period between 1/4/2023 8:33:46 PM and 1/4/2023 9:19:18 PM UTC. Search may be required.
+2023-01-04 22:19:19.5|Info|DownloadDecisionMaker|Processing 41 releases
+2023-01-04 22:19:19.6|Info|RssSyncService|RSS Sync Completed. Reports found: 41, Reports grabbed: 0
+2023-01-04 22:34:48.5|Info|RssSyncService|Starting RSS Sync
+2023-01-04 22:34:49.6|Warn|Torznab|Indexer torrenttv rss sync didn't cover the period between 1/4/2023 9:19:18 PM and 1/4/2023 9:34:49 PM UTC. Search may be required.
+2023-01-04 22:34:50.0|Info|DownloadDecisionMaker|Processing 41 releases
+2023-01-04 22:34:50.1|Info|RssSyncService|RSS Sync Completed. Reports found: 41, Reports grabbed: 0
+2023-01-04 22:50:19.3|Info|RssSyncService|Starting RSS Sync
+2023-01-04 22:50:19.4|Warn|Torznab|Indexer torrenttv rss sync didn't cover the period between 1/4/2023 9:34:49 PM and 1/4/2023 9:34:49 PM UTC. Search may be required.
+2023-01-04 22:50:19.5|Info|DownloadDecisionMaker|Processing 41 releases
+2023-01-04 22:50:19.6|Info|RssSyncService|RSS Sync Completed. Reports found: 41, Reports grabbed: 0
+2023-01-04 23:05:20.0|Info|RssSyncService|Starting RSS Sync
+2023-01-04 23:05:20.2|Warn|Torznab|Indexer torrenttv rss sync didn't cover the period between 1/4/2023 9:34:49 PM and 1/4/2023 9:34:49 PM UTC. Search may be required.
+2023-01-04 23:05:20.2|Info|DownloadDecisionMaker|Processing 41 releases
+2023-01-04 23:05:20.4|Info|RssSyncService|RSS Sync Completed. Reports found: 41, Reports grabbed: 0
+2023-01-04 23:08:50.3|Info|SceneMappingService|Updating Scene mappings
+2023-01-04 23:20:20.8|Info|RssSyncService|Starting RSS Sync
+2023-01-04 23:20:21.5|Warn|Torznab|Indexer torrenttv rss sync didn't cover the period between 1/4/2023 9:34:49 PM and 1/4/2023 10:20:21 PM UTC. Search may be required.
+2023-01-04 23:20:22.6|Warn|Torznab|Indexer torrentv rss sync didn't cover the period between 1/4/2023 9:34:50 PM and 1/4/2023 10:20:22 PM UTC. Search may be required.
+2023-01-04 23:20:22.6|Info|DownloadDecisionMaker|Processing 41 releases
+2023-01-04 23:20:23.0|Info|RssSyncService|RSS Sync Completed. Reports found: 41, Reports grabbed: 0
+2023-01-04 23:35:51.6|Info|RssSyncService|Starting RSS Sync
+2023-01-04 23:35:51.7|Warn|Torznab|Indexer torrentv rss sync didn't cover the period between 1/4/2023 10:20:22 PM and 1/4/2023 10:20:22 PM UTC. Search may be required.
+2023-01-04 23:35:51.7|Warn|Torznab|Indexer torrenttv rss sync didn't cover the period between 1/4/2023 10:20:21 PM and 1/4/2023 10:20:21 PM UTC. Search may be required.
+2023-01-04 23:35:51.8|Info|DownloadDecisionMaker|Processing 41 releases
+2023-01-04 23:35:51.9|Info|RssSyncService|RSS Sync Completed. Reports found: 41, Reports grabbed: 0
+2023-01-04 23:50:52.4|Info|RssSyncService|Starting RSS Sync
+2023-01-04 23:50:52.6|Warn|Torznab|Indexer torrenttv rss sync didn't cover the period between 1/4/2023 10:20:21 PM and 1/4/2023 10:20:21 PM UTC. Search may be required.
+2023-01-04 23:50:52.6|Warn|Torznab|Indexer torrentv rss sync didn't cover the period between 1/4/2023 10:20:22 PM and 1/4/2023 10:20:22 PM UTC. Search may be required.
+2023-01-04 23:50:52.6|Info|DownloadDecisionMaker|Processing 41 releases
+2023-01-04 23:50:52.7|Info|RssSyncService|RSS Sync Completed. Reports found: 41, Reports grabbed: 0
+2023-01-05 00:05:53.1|Info|RssSyncService|Starting RSS Sync
+2023-01-05 00:05:53.4|Warn|Torznab|Indexer torrenttv rss sync didn't cover the period between 1/4/2023 10:20:21 PM and 1/4/2023 11:05:53 PM UTC. Search may be required.
+2023-01-05 00:05:54.0|Warn|Torznab|Indexer torrentv rss sync didn't cover the period between 1/4/2023 10:20:22 PM and 1/4/2023 11:05:54 PM UTC. Search may be required.
+2023-01-05 00:05:54.0|Info|DownloadDecisionMaker|Processing 41 releases
+2023-01-05 00:05:54.1|Info|RssSyncService|RSS Sync Completed. Reports found: 41, Reports grabbed: 0
+2023-01-05 00:21:23.9|Info|RssSyncService|Starting RSS Sync
+2023-01-05 00:21:24.0|Warn|Torznab|Indexer torrentv rss sync didn't cover the period between 1/4/2023 11:05:54 PM and 1/4/2023 11:05:54 PM UTC. Search may be required.
+2023-01-05 00:21:24.0|Warn|Torznab|Indexer torrenttv rss sync didn't cover the period between 1/4/2023 11:05:53 PM and 1/4/2023 11:05:53 PM UTC. Search may be required.
+2023-01-05 00:21:24.1|Info|DownloadDecisionMaker|Processing 41 releases
+2023-01-05 00:21:24.2|Info|RssSyncService|RSS Sync Completed. Reports found: 41, Reports grabbed: 0
+2023-01-05 00:36:24.6|Info|RssSyncService|Starting RSS Sync
+2023-01-05 00:36:24.7|Warn|Torznab|Indexer torrentv rss sync didn't cover the period between 1/4/2023 11:05:54 PM and 1/4/2023 11:05:54 PM UTC. Search may be required.
+2023-01-05 00:36:24.7|Warn|Torznab|Indexer torrenttv rss sync didn't cover the period between 1/4/2023 11:05:53 PM and 1/4/2023 11:05:53 PM UTC. Search may be required.
+2023-01-05 00:36:24.8|Info|DownloadDecisionMaker|Processing 41 releases
+2023-01-05 00:36:24.9|Info|RssSyncService|RSS Sync Completed. Reports found: 41, Reports grabbed: 0
+2023-01-05 00:40:39.5|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2023-01-05 00:40:40.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-01-05 00:40:40.8|Info|Router|Application mode: Interactive
+2023-01-05 00:40:41.2|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-05 00:40:41.8|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-01-05 00:40:42.2|Info|OwinHostController|Listening on the following URLs:
+2023-01-05 00:40:42.2|Info|OwinHostController|  http://*:8989/
+2023-01-05 00:40:43.4|Info|SonarrBootstrapper|Starting Web Server
+2023-01-05 00:51:46.7|Info|RssSyncService|Starting RSS Sync
+2023-01-05 00:51:47.7|Warn|Torznab|Indexer torrenttv rss sync didn't cover the period between 1/4/2023 11:05:53 PM and 1/4/2023 11:51:47 PM UTC. Search may be required.
+2023-01-05 00:51:48.1|Warn|Torznab|Indexer torrentv rss sync didn't cover the period between 1/4/2023 11:05:54 PM and 1/4/2023 11:11:00 PM UTC. Search may be required.
+2023-01-05 00:51:48.1|Info|DownloadDecisionMaker|Processing 41 releases
+2023-01-05 00:51:48.4|Info|RssSyncService|RSS Sync Completed. Reports found: 41, Reports grabbed: 0
+2023-01-05 00:52:16.7|Info|HousekeepingService|Running housecleaning tasks
+2023-01-05 00:52:16.7|Info|ImportListSyncService|Starting Import List Sync
+2023-01-05 00:52:16.8|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2023-01-05 00:52:16.8|Info|ImportListSyncService|Processing 0 list items
+2023-01-05 00:52:16.9|Info|SceneMappingService|Updating Scene mappings
+2023-01-05 00:52:17.0|Info|Database|Vacuuming Log database
+2023-01-05 00:52:17.1|Info|Database|Log database compressed
+2023-01-05 00:52:17.1|Info|Database|Vacuuming Main database
+2023-01-05 00:52:18.6|Info|Database|Main database compressed
+2023-01-05 00:52:22.1|Info|ImportListSyncService|Import List Sync Completed. Items found: 0, Series added: 0
+2023-01-05 01:21:02.0|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:21:32.0|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:22:02.0|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at System.Dynamic.UpdateDelegates.UpdateAndExecute4[T0,T1,T2,T3,TRet] (System.Runtime.CompilerServices.CallSite site, T0 arg0, T1 arg1, T2 arg2, T3 arg3) [0x00035] in <f6c405b973804b5c804e7e759353765f>:0 
+  at (wrapper dynamic-method) System.Object.CallSite.Target(System.Runtime.CompilerServices.Closure,System.Runtime.CompilerServices.CallSite,NzbDrone.Core.Messaging.Commands.CommandQueueManager,object,NzbDrone.Core.Messaging.Commands.CommandPriority,NzbDrone.Core.Messaging.Commands.CommandTrigger)
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:22:32.0|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:23:02.1|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:23:32.1|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:24:02.1|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:24:32.1|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:25:02.2|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:25:32.2|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:26:02.2|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:26:32.2|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:27:02.2|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:27:32.3|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:28:02.3|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:28:32.3|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:29:02.4|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:29:11.9|Error|RootFolderService|Unable to get free space and unmapped folders for root folder /tv/
+
+[v3.0.9.1549] System.InvalidOperationException: Function not implemented ---> Mono.Unix.UnixIOException: Function not implemented [ENOSYS].
+   --- End of inner exception stack trace ---
+  at Mono.Unix.UnixDriveInfo.Refresh (System.Boolean throwException) [0x00031] in <e3eec4d51bc747d29a47738c484239ee>:0 
+  at Mono.Unix.UnixDriveInfo.Refresh () [0x00000] in <e3eec4d51bc747d29a47738c484239ee>:0 
+  at Mono.Unix.UnixDriveInfo.get_AvailableFreeSpace () [0x00000] in <e3eec4d51bc747d29a47738c484239ee>:0 
+  at NzbDrone.Mono.Disk.ProcMount.get_AvailableFreeSpace () [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Mono\Disk\ProcMount.cs:24 
+  at NzbDrone.Mono.Disk.DiskProvider.GetAvailableSpace (System.String path) [0x00076] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Mono\Disk\DiskProvider.cs:56 
+  at NzbDrone.Core.RootFolders.RootFolderService+<>c__DisplayClass13_0.<GetDetails>b__0 () [0x00029] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\RootFolders\RootFolderService.cs:189 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:29:32.4|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:30:02.4|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:30:32.5|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:31:02.5|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:31:32.5|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:32:02.5|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:32:32.6|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:33:02.6|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:33:32.6|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:34:02.6|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:34:32.7|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:35:02.7|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:35:32.7|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:36:02.8|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:36:32.8|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:37:02.8|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:37:32.8|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:38:02.9|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:38:32.9|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:39:02.9|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:39:32.9|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+
+2023-01-05 01:40:03.0|Error|TaskExtensions|Task Error
+
+[v3.0.9.1549] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+  at System.Data.SQLite.SQLite3.Reset (System.Data.SQLite.SQLiteStatement stmt) [0x00088] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLite3.Step (System.Data.SQLite.SQLiteStatement stmt) [0x0006e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x00174] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x0008e] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x0000c] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar (System.Data.CommandBehavior behavior) [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteScalar () [0x00006] in <cf516e4846354910b3d60749c894b1bf>:0 
+  at Marr.Data.QGen.InsertQueryBuilder`1[T].Execute () [0x00046] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\QGen\InsertQueryBuilder.cs:140 
+  at Marr.Data.DataMapper.Insert[T] (T entity) [0x0005f] in M:\BuildAgent\work\63739567f01dbcc2\src\Marr.Data\DataMapper.cs:728 
+  at NzbDrone.Core.Datastore.BasicRepository`1[TModel].Insert (TModel model) [0x00030] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Datastore\BasicRepository.cs:119 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push[TCommand] (TCommand command, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x0015a] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:126 
+  at NzbDrone.Core.Messaging.Commands.CommandQueueManager.Push (System.String commandName, System.Nullable`1[T] lastExecutionTime, NzbDrone.Core.Messaging.Commands.CommandPriority priority, NzbDrone.Core.Messaging.Commands.CommandTrigger trigger) [0x000b7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Messaging\Commands\CommandQueueManager.cs:139 
+  at NzbDrone.Core.Jobs.Scheduler.ExecuteCommands () [0x00043] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Jobs\Scheduler.cs:42 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+

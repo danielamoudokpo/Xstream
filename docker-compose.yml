@@ -7,10 +7,10 @@ services:
     ports:
       - ${PLEX_PORT}:${PLEX_PORT}/tcp
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=TZ=Europe/Paris
-      - PLEX_CLAIM=claim-J4j_T1omNQqfngxGqnG8
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ_PARIS}
+      - PLEX_CLAIM=${PLEX_CLAIM}
       - ADVERTISE_IP=http://
       - NVIDIA_DRIVER_CAPABILITIES=all
       - NVIDIA_VISIBLE_DEVICES=all
@@ -29,7 +29,7 @@ services:
       - PGID=${PGID}
       - TZ=${TZ_PARIS}
     ports:
-      - 5055:5055
+      - ${OVERSEERR_PORT}:${OVERSEERR_PORT}
     restart: unless-stopped
     volumes:
       - ./config/overseerr/:/config
@@ -43,10 +43,10 @@ services:
     volumes:
       - ./config/radarr/:/config
       - ./plex/movies:/movies
-      - ./media/downloads:/downloads
-      - ./media/movies:/movies 
+      - ./medias/downloads:/downloads
+      - ./medias/movies:/movies 
     ports:
-      - 7878:7878
+      - ${RADARR_PORT}:${RADARR_PORT}
     restart: unless-stopped
     depends_on:
       - overseerr
@@ -60,10 +60,10 @@ services:
     volumes:
       - ./config/sonarr/:/config
       - ./plex/tvseries:/tv
-      - ./media/downloads:/downloads
-      - ./media/tvseries:/tv 
+      - ./medias/downloads:/downloads
+      - ./medias/tvseries:/tv 
     ports:
-      - 8989:8989
+      - ${SONARR_PORT}:${SONARR_PORT}
     restart: unless-stopped
     depends_on:
       - overseerr
@@ -76,12 +76,11 @@ services:
       - TZ=${TZ_LONDON}
     volumes:
       - ./config/bazarr/:/config
-      - ./media/movies:/movies
-      - ./media/tvseries:/tv
+      - ./medias/movies:/movies
+      - ./medias/tvseries:/tv
     ports:
-      - 6767:6767
+      - ${BAZARR_PORT}:${BAZARR_PORT}
     restart: unless-stopped
 networks:
   default:
     name: my-plex-network
-    external: true

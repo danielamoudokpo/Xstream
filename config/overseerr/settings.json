@@ -24,23 +24,21 @@
  },
  "plex": {
   "name": "pablito",
-  "ip": "172.20.0.3",
+  "ip": "172.20.0.2",
   "port": 32400,
   "useSsl": false,
   "libraries": [
    {
     "id": "1",
     "name": "Movies",
-    "enabled": true,
-    "type": "movie",
-    "lastScan": 1672831200271
+    "enabled": false,
+    "type": "movie"
    },
    {
     "id": "2",
     "name": "TV Shows",
-    "enabled": true,
-    "type": "show",
-    "lastScan": 1672831200312
+    "enabled": false,
+    "type": "show"
    }
   ],
   "machineId": "83722fb6ea7f2b2c2a4872a99006ce76878d8cc8"
@@ -54,8 +52,8 @@
    "apiKey": "34b5967800b340058edda235db0146be",
    "useSsl": false,
    "baseUrl": "",
-   "activeProfileId": 6,
-   "activeProfileName": "HD - 720p/1080p",
+   "activeProfileId": 7,
+   "activeProfileName": "HD/4K+FR",
    "activeDirectory": "/movies",
    "is4k": false,
    "minimumAvailability": "released",
